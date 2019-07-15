@@ -1,0 +1,56 @@
+body {
+    background: url(../images/backgrounds/mainBackground.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#github {
+    height: 40px;
+    width: auto;
+    float: right;
+    margin: 10px;
+}
+
+#linkedin {
+    height: 40px;
+    width: auto;
+    float: right;
+    margin: 10px;
+}
+
+.share {
+    height: 40px;
+    width: auto;
+    float: right;
+    margin: 10px;
+}
+
+#email {
+    height: 40px;
+    width: auto;
+    float: right;
+    margin: 10px;
+}
+
+#resume {
+    height: 40px;
+    width: auto;
+    float: right;
+    margin: 10px;
+}
+
+#name {
+    float: right;
+    margin-top: 40px;
+    text-align: center;
+    font-family: 'Lobster', cursive;
+}
+
+#myTitle {
+    clear: both;
+    float: right;
+    text-align: center;
+    margin-right: 40px;
+}
