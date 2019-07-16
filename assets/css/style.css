@@ -42,15 +42,40 @@ body {
 }
 
 #name {
-    float: right;
+    float: left;
     margin-top: 40px;
-    text-align: center;
+    margin-left: 190px;
     font-family: 'Lobster', cursive;
 }
 
 #myTitle {
     clear: both;
+    float: left;
+    margin-left: 195px;
+    margin-bottom: 10px;
+}
+
+#projectsBtn {
+    clear: both;
     float: right;
-    text-align: center;
-    margin-right: 40px;
+    margin-top: 20px;
+    margin-right: 65px;
+}
+
+
+/* #projectsBtn:hover {
+    background: #f0f1f3;
+    color: black;
+} */
+
+.aboutP {
+    text-indent: 2.0em;
+}
+
+#aboutMe {
+    padding-top: 10px;
+    margin-left: 45px;
+    background: #f0f1f3;
+    opacity: .4;
+    border: black solid 1px;
 }
