@@ -79,4 +79,7 @@ $(document).ready(function() {
         dots[slideIndex - 1].className += " active";
     }
 
+    $('#hangCode').click(function() {
+        location.reload();
+    });
 });
