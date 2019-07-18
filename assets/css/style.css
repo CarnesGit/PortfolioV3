@@ -10,90 +10,12 @@ body {
     background-size: cover;
 }
 
+
+/* Nav Icons */
+
 .container-1 {
     display: flex;
     justify-content: flex-end;
-}
-
-.container-2 {
-    display: flex;
-    justify-content: flex-start;
-}
-
-.box-1 {
-    flex: 7;
-}
-
-.box-2 {
-    flex: 3;
-}
-
-.box-3 {
-    flex: 2;
-}
-
-#projectsBtn {
-    margin-top: 15px;
-    margin-left: 40px;
-    background: black;
-    color: white;
-    width: 120px;
-    height: 40px;
-    font-size: 18px;
-}
-
-#projectsBtn:hover {
-    cursor: pointer;
-}
-
-#name {
-    font-family: 'Lobster', cursive;
-    font-size: 48px;
-}
-
-#myTitle {
-    font-family: 'Oswald', sans-serif;
-    font-size: 32px;
-    margin-bottom: 20px;
-}
-
-.container-3 {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-}
-
-.box-4 {
-    flex: 7;
-    margin-right: 10px;
-}
-
-.box-5 {
-    flex: 5;
-    background: #D7D7D9;
-    opacity: .7;
-    border: #66686b 1px;
-    padding: 5px;
-    margin-right: 10px;
-}
-
-#profilePic {
-    float: left;
-    margin: 5px;
-    width: 180px;
-    height: auto;
-}
-
-.aboutP {
-    font-family: 'Roboto', sans-serif;
-    flex-wrap: wrap;
-    text-indent: 2.0em;
-    font-size: 20px;
-}
-
-#mainNavBar {
-    align-self: flex-end;
-    flex-wrap: nowrap;
 }
 
 #github {
@@ -130,6 +52,106 @@ body {
     float: right;
     margin: 10px;
 }
+
+
+/* Name, Title, Project Button */
+
+.container-2 {
+    display: flex;
+    justify-content: flex-start;
+}
+
+
+/* Empty for spacing */
+
+.box-1 {
+    flex: 7;
+}
+
+
+/* Name and Title */
+
+.box-2 {
+    flex: 3;
+}
+
+#name {
+    font-family: 'Lobster', cursive;
+    font-size: 48px;
+}
+
+#myTitle {
+    font-family: 'Oswald', sans-serif;
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+
+/* Project Button */
+
+.box-3 {
+    flex: 2;
+}
+
+#projectsBtn {
+    margin-top: 15px;
+    margin-left: 40px;
+    background: black;
+    color: white;
+    width: 120px;
+    height: 40px;
+    font-size: 18px;
+}
+
+#projectsBtn:hover {
+    cursor: pointer;
+}
+
+
+/* Profile Pic, About Me */
+
+.container-3 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+/* Empty for Spacing */
+
+.box-4 {
+    flex: 7;
+    margin-right: 10px;
+}
+
+
+/* Profile Pic, About Me */
+
+.box-5 {
+    flex: 5;
+    background: #D7D7D9;
+    opacity: .7;
+    border: #66686b 1px;
+    padding: 5px;
+    margin-right: 10px;
+}
+
+#profilePic {
+    float: left;
+    margin: 5px;
+    width: 180px;
+    height: auto;
+}
+
+.aboutP {
+    font-family: 'Roboto', sans-serif;
+    flex-wrap: wrap;
+    text-indent: 2.0em;
+    font-size: 20px;
+}
+
+
+/* Back Button */
 
 #backBtn {
     margin-left: 660px;
@@ -202,7 +224,7 @@ body {
 
 .text {
     color: #f2f2f2;
-    font-size: 15px;
+    font-size: 24px;
     padding: 8px 12px;
     position: absolute;
     bottom: 8px;
@@ -216,7 +238,7 @@ body {
 
 .numbertext {
     color: #f2f2f2;
-    font-size: 12px;
+    font-size: 18px;
     padding: 8px 12px;
     position: absolute;
     margin-left: 80px;
