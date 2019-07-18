@@ -52,6 +52,7 @@ body {
 }
 
 #myTitle {
+    font-family: 'Oswald', sans-serif;
     font-size: 32px;
     margin-bottom: 20px;
 }
@@ -84,6 +85,7 @@ body {
 }
 
 .aboutP {
+    font-family: 'Roboto', sans-serif;
     flex-wrap: wrap;
     text-indent: 2.0em;
     font-size: 20px;
