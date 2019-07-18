@@ -1,6 +1,40 @@
 $(document).ready(function() {
+    //Hiding the slideshow on the main page
+    $('#slideshow').hide();
+
+    //Adding function for the slideshow
+    var slideIndex = 1;
+    showSlides(slideIndex);
+
+    // Next/previous controls
+    function plusSlides(n) {
+        showSlides(slideIndex += n);
+    }
+
+    // Thumbnail image controls
+    function currentSlide(n) {
+        showSlides(slideIndex = n);
+    }
+
+    function showSlides(n) {
+        var i;
+        var slides = document.getElementsByClassName("mySlides");
+        var dots = document.getElementsByClassName("dot");
+        if (n > slides.length) { slideIndex = 1 }
+        if (n < 1) { slideIndex = slides.length }
+        for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";
+        }
+        for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+        }
+        slides[slideIndex - 1].style.display = "block";
+        dots[slideIndex - 1].className += " active";
+    }
+
     //Setting the "My Projects" button to change the layout and display portfolio by altering CSS, using .hide, and .append
     $('#projectsBtn').click(function() {
+        $('#slideshow').show();
         $('body').css("background", "url('assets/images/backgrounds/projectBackground.jpg') no-repeat center center fixed");
         $('body').css("-webkit-background-size", "cover");
         $('body').css("-moz-background-size", "cover");
@@ -19,14 +53,9 @@ $(document).ready(function() {
         $('.container-4').append('<div class="box-6"></div>');
         $('.box-6').append('<button id="backBtn" type="button">Back</button>');
 
-
-
-
         //Asigning code to the "Back" button to function as expected
         $('#backBtn').click(function() {
             location.reload();
         });
     });
-
-
 });
