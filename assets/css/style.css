@@ -6,6 +6,90 @@ body {
     background-size: cover;
 }
 
+.container-1 {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.container-2 {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.box-1 {
+    flex: 7;
+}
+
+.box-2 {
+    flex: 3;
+}
+
+.box-3 {
+    flex: 2;
+}
+
+#projectsBtn {
+    margin-top: 15px;
+    margin-left: 40px;
+    background: black;
+    color: white;
+    width: 120px;
+    height: 40px;
+    font-size: 18px;
+}
+
+#projectsBtn:hover {
+    cursor: pointer;
+}
+
+#name {
+    font-family: 'Lobster', cursive;
+    font-size: 48px;
+}
+
+#myTitle {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.container-3 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.box-4 {
+    flex: 7;
+    margin-right: 10px;
+}
+
+.box-5 {
+    flex: 5;
+    background: #D7D7D9;
+    opacity: .7;
+    border: #66686b 1px;
+    padding: 5px;
+    margin-right: 10px;
+}
+
+#profilePic {
+    float: left;
+    margin: 5px;
+    width: 180px;
+    height: auto;
+}
+
+.aboutP {
+    flex-wrap: wrap;
+    text-indent: 2.0em;
+    font-size: 20px;
+}
+
+#mainNavBar {
+    align-self: flex-end;
+    flex-wrap: nowrap;
+}
+
 #github {
     height: 40px;
     width: auto;
@@ -41,46 +125,16 @@ body {
     margin: 10px;
 }
 
-#name {
-    float: left;
-    margin-top: 40px;
-    margin-left: 190px;
-    font-family: 'Lobster', cursive;
-}
-
-#myTitle {
-    clear: both;
-    float: left;
-    margin-left: 195px;
-    margin-bottom: 10px;
-}
-
-#projectsBtn {
-    clear: both;
-    float: right;
-    margin-top: 20px;
-    margin-right: 65px;
-}
-
-
-/* #projectsBtn:hover {
-    background: #f0f1f3;
-    color: black;
-} */
-
-.aboutP {
-    text-indent: 2.0em;
-}
-
-#aboutMe {
-    padding-top: 10px;
-    margin-left: 45px;
-    background: #f0f1f3;
-    opacity: .4;
-    border: black solid 1px;
-}
-
 #backBtn {
-    margin-left: 687px;
-    margin-top: 565px;
+    margin-left: 660px;
+    margin-top: 465px;
+    background: black;
+    color: white;
+    width: 120px;
+    height: 40px;
+    font-size: 18px;
+}
+
+#backBtn:hover {
+    cursor: pointer;
 }
