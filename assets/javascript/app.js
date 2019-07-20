@@ -22,9 +22,11 @@ $(document).ready(function() {
 
         //Tweaking CSS for the Projects page
         $('#resume').css("margin-top", "60px");
-        $('#email').css("margin-top", "60px");
+        $('#email').css("margin-top", "55px");
         $('#linkedin').css("margin-top", "60px");
-        $('#github').css("margin-top", "60px");
+        $('#github').css("margin-top", "55px");
+        $('#github').css("margin-right", "-5px");
+        $('#github').css("margin-left", "5px");
         $('#resume').css("margin-right", "260px");
 
         //Adding the new container for the projects page
