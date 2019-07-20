@@ -21,39 +21,119 @@ body {
     justify-content: flex-end;
 }
 
+#mainNavBar {
+    display: flex;
+}
+
 #github {
     height: 50px;
     width: auto;
-    float: right;
+    /* float: right; */
     margin-top: 5px;
 }
 
 #linkedin {
     height: 40px;
     width: auto;
-    float: right;
+    /* float: right; */
     margin: 10px;
 }
 
 .share {
     height: 40px;
     width: auto;
-    float: right;
+    /* float: right; */
     margin: 10px;
 }
 
 #email {
     height: 50px;
     width: auto;
-    float: right;
+    /* float: right; */
     margin: 5px;
 }
 
 #resume {
     height: 40px;
     width: auto;
-    float: right;
     margin: 10px;
+}
+
+
+/* CSS Animations on Icons in Navbar */
+
+.text-focus-in {
+    visibility: hidden;
+}
+
+.gitAna:hover .text-focus-in {
+    cursor: pointer;
+    visibility: visible;
+    -webkit-animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+    animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+}
+
+#gitText {
+    margin-left: 2px;
+}
+
+.linkedinAna:hover .text-focus-in {
+    cursor: pointer;
+    visibility: visible;
+    -webkit-animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+    animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+}
+
+#linkedinText {
+    margin-left: 2px;
+}
+
+.emailAna:hover .text-focus-in {
+    cursor: pointer;
+    visibility: visible;
+    -webkit-animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+    animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+}
+
+#emailText {
+    margin-left: 2px;
+}
+
+.resumeAna:hover .text-focus-in {
+    cursor: pointer;
+    visibility: visible;
+    -webkit-animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+    animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+}
+
+#resumeText {
+    /* margin-right: 20px; */
+}
+
+@-webkit-keyframes text-focus-in {
+    0% {
+        -webkit-filter: blur(12px);
+        filter: blur(12px);
+        opacity: 0;
+    }
+    100% {
+        -webkit-filter: blur(0px);
+        filter: blur(0px);
+        opacity: 1;
+    }
+}
+
+@keyframes text-focus-in {
+    0% {
+        -webkit-filter: blur(12px);
+        filter: blur(12px);
+        opacity: 0;
+    }
+    100% {
+        -webkit-filter: blur(0px);
+        filter: blur(0px);
+        opacity: 1;
+    }
 }
 
 
