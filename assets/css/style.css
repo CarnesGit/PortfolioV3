@@ -154,13 +154,14 @@ body {
 /* Back Button */
 
 #backBtn {
-    margin-left: 660px;
-    margin-top: 10px;
+    margin-top: 60px;
     background: black;
-    color: white;
-    width: 120px;
+    color: #595554;
+    width: 80px;
     height: 40px;
-    font-size: 18px;
+    font-size: 32px;
+    font-family: 'Squada One', cursive;
+    border: solid 1px black;
 }
 
 #backBtn:hover {
@@ -174,7 +175,11 @@ body {
     max-width: 900px;
     position: relative;
     margin: auto;
+    margin-top: 20px;
 }
+
+
+/* Hangman App */
 
 .box-7 {
     display: flex;
@@ -186,6 +191,8 @@ body {
     color: white;
     width: 120px;
     height: 40px;
+    margin-top: 5px;
+    margin-left: -5px;
     font-size: 18px;
 }
 
@@ -198,10 +205,84 @@ body {
     color: white;
     width: 120px;
     height: 40px;
+    margin-top: 5px;
+    margin-right: 15px;
     font-size: 18px;
 }
 
 #hangCode:hover {
+    cursor: pointer;
+}
+
+
+/* StarTrek RPG App */
+
+.box-8 {
+    display: flex;
+    justify-content: space-around;
+}
+
+#trekApp {
+    background: black;
+    color: white;
+    width: 120px;
+    height: 40px;
+    margin-top: 5px;
+    margin-left: 5px;
+    font-size: 18px;
+}
+
+#trekApp {
+    cursor: pointer;
+}
+
+#trekCode {
+    background: black;
+    color: white;
+    width: 120px;
+    height: 40px;
+    margin-top: 5px;
+    margin-right: 25px;
+    font-size: 18px;
+}
+
+#trekCode:hover {
+    cursor: pointer;
+}
+
+
+/* Game of Thrones Trivia App */
+
+.box-9 {
+    display: flex;
+    justify-content: space-around;
+}
+
+#throneApp {
+    background: black;
+    color: white;
+    width: 120px;
+    height: 40px;
+    margin-top: 5px;
+    margin-left: 45px;
+    font-size: 18px;
+}
+
+#throneApp:hover {
+    cursor: pointer;
+}
+
+#throneCode {
+    background: black;
+    color: white;
+    width: 120px;
+    height: 40px;
+    margin-top: 5px;
+    margin-right: 65px;
+    font-size: 18px;
+}
+
+#throneCode:hover {
     cursor: pointer;
 }
 
@@ -255,10 +336,8 @@ body {
     color: #f2f2f2;
     font-size: 24px;
     padding: 8px 12px;
-    position: absolute;
     bottom: 8px;
     right: 1px;
-    width: 100%;
     text-align: center;
 }
 

@@ -20,8 +20,8 @@ $(document).ready(function() {
         $('#github').css("margin-top", "60px");
         $('#resume').css("margin-right", "260px");
         $('body').append('<div class="container-4"></div>');
-        $('.container-4').append('<div class="box-6"></div>');
-        $('.box-6').append('<button id="backBtn" type="button">Back</button>');
+        // $('.container-4').append('<div class="box-6"></div>');
+        $('.container-1').prepend('<button id="backBtn" type="button">Home</button>');
 
         //Asigning code to the "Back" button to function as expected
         $('#backBtn').click(function() {
@@ -82,4 +82,5 @@ $(document).ready(function() {
     $('#hangCode').click(function() {
         location.reload();
     });
+
 });
