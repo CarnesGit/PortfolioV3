@@ -2,6 +2,9 @@
     box-sizing: border-box
 }
 
+
+/* Home page background */
+
 body {
     background: url(../images/backgrounds/mainBackground.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
@@ -19,10 +22,10 @@ body {
 }
 
 #github {
-    height: 40px;
+    height: 50px;
     width: auto;
     float: right;
-    margin: 10px;
+    margin-top: 5px;
 }
 
 #linkedin {
@@ -40,10 +43,10 @@ body {
 }
 
 #email {
-    height: 40px;
+    height: 50px;
     width: auto;
     float: right;
-    margin: 10px;
+    margin: 5px;
 }
 
 #resume {
@@ -151,7 +154,7 @@ body {
 }
 
 
-/* Back Button */
+/* Back (Home) Button */
 
 #backBtn {
     margin-top: 60px;
@@ -287,7 +290,7 @@ body {
 }
 
 
-/* Hide the images by default */
+/* Hide the slideshow images by default */
 
 .mySlides {
     display: none;
