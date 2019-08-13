@@ -21,6 +21,10 @@ body {
     justify-content: flex-end;
 }
 
+.container-6 {
+    display: flex;
+}
+
 #mainNavBar {
     display: flex;
 }
@@ -369,6 +373,25 @@ body {
     cursor: pointer;
 }
 
+.box-10 {
+    display: flex;
+    justify-content: space-around;
+}
+
+#bamCode {
+    background: black;
+    color: white;
+    width: 120px;
+    height: 40px;
+    margin-top: 5px;
+    margin-left: -5px;
+    font-size: 18px;
+}
+
+#bamCode:hover {
+    cursor: pointer;
+}
+
 
 /* Hide the slideshow images by default */
 
@@ -486,5 +509,11 @@ body {
     }
     to {
         opacity: 1
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    #resume {
+        margin-top: 180px;
     }
 }
