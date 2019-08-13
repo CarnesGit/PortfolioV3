@@ -378,6 +378,25 @@ body {
     justify-content: space-around;
 }
 
+#liriCode {
+    background: black;
+    color: white;
+    width: 120px;
+    height: 40px;
+    margin-top: 5px;
+    margin-left: -5px;
+    font-size: 18px;
+}
+
+#liriCode:hover {
+    cursor: pointer;
+}
+
+.box-11 {
+    display: flex;
+    justify-content: space-around;
+}
+
 #bamCode {
     background: black;
     color: white;
