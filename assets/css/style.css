@@ -110,9 +110,10 @@ body {
     animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
 }
 
-#resumeText {
-    /* margin-right: 20px; */
-}
+
+/* #resumeText {
+    margin-right: 20px;
+} */
 
 @-webkit-keyframes text-focus-in {
     0% {
@@ -425,7 +426,7 @@ body {
     justify-content: space-around;
 }
 
-#FriendApp {
+#friendApp {
     background: black;
     color: white;
     width: 120px;
