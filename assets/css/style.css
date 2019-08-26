@@ -373,6 +373,9 @@ body {
     cursor: pointer;
 }
 
+
+/* Liri App */
+
 .box-10 {
     display: flex;
     justify-content: space-around;
@@ -392,6 +395,9 @@ body {
     cursor: pointer;
 }
 
+
+/* Bamazon App */
+
 .box-11 {
     display: flex;
     justify-content: space-around;
@@ -408,6 +414,42 @@ body {
 }
 
 #bamCode:hover {
+    cursor: pointer;
+}
+
+
+/* Friend Finder App */
+
+.box-12 {
+    display: flex;
+    justify-content: space-around;
+}
+
+#FriendApp {
+    background: black;
+    color: white;
+    width: 120px;
+    height: 40px;
+    margin-top: 5px;
+    margin-left: 45px;
+    font-size: 18px;
+}
+
+#friendApp:hover {
+    cursor: pointer;
+}
+
+#friendCode {
+    background: black;
+    color: white;
+    width: 120px;
+    height: 40px;
+    margin-top: 5px;
+    margin-right: 65px;
+    font-size: 18px;
+}
+
+#friendCode:hover {
     cursor: pointer;
 }
 
