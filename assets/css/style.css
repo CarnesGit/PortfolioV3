@@ -489,6 +489,39 @@ body {
     cursor: pointer;
 }
 
+.box-14 {
+    display: flex;
+    justify-content: space-around;
+}
+
+#clickyApp {
+    background: black;
+    color: white;
+    width: 120px;
+    height: 40px;
+    margin-top: 5px;
+    margin-left: 45px;
+    font-size: 18px;
+}
+
+#clickyApp:hover {
+    cursor: pointer;
+}
+
+#clickyCode {
+    background: black;
+    color: white;
+    width: 120px;
+    height: 40px;
+    margin-top: 5px;
+    margin-right: 65px;
+    font-size: 18px;
+}
+
+#clickyCode:hover {
+    cursor: pointer;
+}
+
 
 /* Hide the slideshow images by default */
 
